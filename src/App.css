@@ -1,0 +1,112 @@
+.App {
+  text-align: center;
+}
+
+
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Header styles */
+header {
+  background: #007bff;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+/* Navigation styles */
+nav {
+  background: #333;
+  color: white;
+  background-color: black;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+nav li:hover,
+nav li:focus,
+nav li:focus a{
+  background-color: white;
+  color: black;
+}
+nav li:hover a,
+nav li:fous a{
+  cursor:pointer;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  background-color: black;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Main content styles */
+.App {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form styles */
+form {
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* List styles */
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+/* Missing page styles */
+.missing {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #666;
+}
