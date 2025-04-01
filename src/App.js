@@ -16,7 +16,7 @@ function App() {
     <div className="App">
       <nav>
         <ul>
-          <li><Link to="">Home</Link></li>
+          <li><Link to="/">Home</Link></li>
           <li><Link to="/about">About</Link></li>
           <li><Link to="/postpage">Post Page</Link></li>
         </ul>
@@ -24,7 +24,7 @@ function App() {
     
       
       <Routes>
-        <Route path="" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         
         {/* Use PostLayout for nested routes */}
